@@ -1,6 +1,6 @@
 # Kod
 TODO:
-  alapcsomagok ( )
-  valaszthato csomagok ( )
-  kornyezet beallitzas ( )
-  GAMING csomagok ( )
+  $alapcsomagok ( )
+  $valaszthato csomagok ( )
+  $kornyezet beallitzas ( )
+  $GAMING csomagok ( )
