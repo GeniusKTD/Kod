@@ -3,7 +3,7 @@ set -e
 
 # Gnome alapcsomagok es wayland
 
-sudo pacman -Sy gdm gnome-session gnome-settings-deamon gnome-terminal gnome-disk-utility gnome-system-monitor gnome-control-center gnome-browser-connector gnome-calculator ttf-ubuntu-font-family
+sudo pacman -Sy gdm gnome-session gnome-settings-daemon gnome-terminal gnome-disk-utility gnome-system-monitor gnome-control-center gnome-browser-connector gnome-calculator ttf-ubuntu-font-family
 yay -Sy gdm-tools
 
 # gdm elinditasa
