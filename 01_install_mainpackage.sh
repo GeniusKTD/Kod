@@ -58,7 +58,7 @@ esac
 
 # Menu a gpu driverhez
 
-GPUD=$(dialog --clear --title "AMD GPU driver telepites" \
+GPUD=$(dialog --clear --backtitle "Purple Background" --title "AMD GPU driver telepites" \
               --menu "Szeretned telepiteni az AMD drivert?" 15 40 2 \
               1 "Igen" \
               2 "Nem" \
