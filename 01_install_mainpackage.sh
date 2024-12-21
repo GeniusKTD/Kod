@@ -67,7 +67,7 @@ case $GPUD in
         ./AMDgpu_install.sh
         ;;
     2)
-        exit 1
+        echo "AMD driver telepitese kihagyva."
         ;;
     *)
         echo "Invalid choice. Exiting..."
