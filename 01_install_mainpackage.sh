@@ -26,7 +26,7 @@ sudo systemctl enable cups.service
 
 
 # Menü megjelenítése
-CHOICE=$(dialog --clear --title "Desktop Environment Valaszto" \
+CHOICE=$(dialog --clear --backtitle "Purple Background" --title "Desktop Environment Valaszto" \
                 --menu "Valaszd ki s desktop environment:" 15 50 4 \
                 1 "Gnome" \
                 2 "KDE" \
