@@ -1,5 +1,5 @@
 # Kod
-TODO:
+## TODO:
   - [x] feladatok meghatarozasa
   - [ ] alapcsomagok
   - [ ] driverek kivalasztasa es telepitese
