@@ -4,4 +4,4 @@ TODO:
   - [ ] alapcsomagok
   - [ ] valaszthato csomagok
   - [ ] kornyezet beallitzas
-  - [ ]GAMING csomagok
+  - [ ] GAMING csomagok
