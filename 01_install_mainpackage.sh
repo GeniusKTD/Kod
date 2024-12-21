@@ -4,7 +4,7 @@ set -e
 # Alapcsomagok telepitese
 
 sudo pacman -Syu
-sudo pacman -Sy bash-completion git wget base base-devel mc cups gvfs ntfs-3g zenity ffmpeg flatpak gedit unzip wget dialog man --noconfirm
+sudo pacman -Sy bash-completion git wget base base-devel mc cups gvfs ntfs-3g zenity ffmpeg flatpak gedit unzip wget dialog man glxinfo --noconfirm
 
 # Eredeti sudoers fájl mentése
 sudo cp /etc/sudoers /etc/sudoers.bak
