@@ -1,6 +1,6 @@
 # Kod
-## TODO:
-  - [x] feladatok meghatarozasa
+> ## TODO:
+  - [x] **feladatok meghatarozasa**
   - [ ] alapcsomagok
   - [ ] driverek kivalasztasa es telepitese
   - [ ] valaszthato csomagok
