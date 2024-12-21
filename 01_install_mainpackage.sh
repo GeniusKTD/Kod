@@ -26,7 +26,7 @@ sudo systemctl enable cups.service
 
 
 # Menü megjelenítése
-CHOICE=$(dialog --clear --backtitle "Purple Background" --title "Desktop Environment Valaszto" \
+CHOICE=$(dialog --clear --title "Desktop Environment Valaszto" \
                 --menu "Valaszd ki s desktop environment:" 15 50 4 \
                 1 "Gnome" \
                 2 "KDE" \
@@ -58,7 +58,7 @@ esac
 
 # Menu a gpu driverhez
 
-GPUD=$(dialog --clear --backtitle "Purple Background" --title "AMD GPU driver telepites" \
+GPUD=$(dialog --clear --title "AMD GPU driver telepites" \
               --menu "Szeretned telepiteni az AMD drivert?" 15 40 2 \
               1 "Igen" \
               2 "Nem" \
