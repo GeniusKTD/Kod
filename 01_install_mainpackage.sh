@@ -6,10 +6,16 @@ set -e
 sudo pacman -Syu
 sudo pacman -Sy bash-completion git wget base base-devel mc cups gvfs ntfs-3g zenity ffmpeg flatpak gedit unzip wget dialog man --noconfirm
 
+# Eredeti sudoers fájl mentése
+sudo cp /etc/sudoers /etc/sudoers.bak
+
+# Jelszó nélküli sudo engedélyezése a makepkg parancshoz
+echo '%wheel ALL=(ALL) NOPASSWD: /usr/bin/makepkg' | sudo tee -a /etc/sudoers
+
 ## yay telepites
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+makepkg -si --noconfirm
 cd ..
 rm -rf yay
 
@@ -74,3 +80,12 @@ case $GPUD in
         exit 1
         ;;
 esac
+
+# Eredeti sudoers fájl visszaállítása
+sudo mv /etc/sudoers.bak /etc/sudoers
+
+echo "Telepítés befejezve."
+
+# ujrainditas
+
+sudo shutdown -r now

@@ -7,7 +7,3 @@ sudo pacman -Sy mesa lib32-mesa mesa-vdpau lib32-mesa-vdpau xf86-video-amdgpu vu
 
 # mesa git ha kell
 # yay -Sy mesa-git
-
-# ujrainditas
-
-sudo shutdown -r now
