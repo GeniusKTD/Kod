@@ -1,6 +1,6 @@
 # Kod
 > ## TODO:
-  - [x] **feladatok meghatarozasa**
+>>  - [x] **feladatok meghatarozasa**
   - [ ] alapcsomagok
   - [ ] driverek kivalasztasa es telepitese
   - [ ] valaszthato csomagok
