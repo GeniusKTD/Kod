@@ -1,6 +1,6 @@
 # Kod
 TODO:
-  - [ ] feladatok meghatarozasa
+  - [x] feladatok meghatarozasa
   - [ ] alapcsomagok
   - [ ] driverek kivalasztasa es telepitese
   - [ ] valaszthato csomagok
