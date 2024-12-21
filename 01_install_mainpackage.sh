@@ -13,5 +13,7 @@ makepkg -si
 cd ..
 rm -rf yay
 
+# cups (nyomtato)
+
 sudo systemctl start cups.service
 sudo systemctl enable cups.service
