@@ -49,3 +49,28 @@ case $CHOICE in
         exit 1
         ;;
 esac
+
+# Menu a gpu driverhez
+
+GPUD=$(dialog --clear --title "AMD GPU driver telepites" \
+              --menu "Szeretned telepiteni az AMD drivert?" 15 40 2 \
+              1 "Igen" \
+              2 "Nem" \
+              3>&1 1>&2 2>&3
+)
+clear
+
+# Telepites vagy nem
+
+case $GPUD in
+    1)
+        ./AMDgpu_install.sh
+        ;;
+    2)
+        exit 1
+        ;;
+    *)
+        echo "Invalid choice. Exiting..."
+        exit 1
+        ;;
+esac
