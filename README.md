@@ -1,6 +1,7 @@
 # Kod
 TODO:
-  $alapcsomagok ( );
-  $valaszthato csomagok ( );
-  $kornyezet beallitzas ( );
-  $GAMING csomagok ( )
+  >feladatok meghatarozasa (*)
+  >alapcsomagok ( )
+  >valaszthato csomagok ( )
+  >kornyezet beallitzas ( )
+  >GAMING csomagok ( )
