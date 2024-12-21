@@ -4,5 +4,5 @@ TODO:
   - [ ] alapcsomagok
   - [ ] driverek kivalasztasa es telepitese
   - [ ] valaszthato csomagok
-  - [ ] kornyezet beallitzas
+  - [ ] kornyezet beallitasa
   - [ ] GAMING csomagok
